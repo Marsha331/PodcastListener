@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">PodcastListener</string>
+    <string name="search_text">The purpose of this activity is to be able to search for podcasts. There should be an option to
+    search existing library or to find new podcasts with a dropdown menu to choose where to search from.</string>
+    <string name="buymore_text">The purpose of this activity is to buy/get more podcasts. There should be links to selected
+    services (like Amazon, iTunes or Google Play) that sell podcasts that will play on this player, connecting with these
+        links to purchase the podcasts. A button for podcast makers to send their RSS feeds, as well as access to free
+        podcasts like podbean.com offers.</string>
+    <string name="nowplaying_text">The purpose of this activity is to show what podcast is currently playing, as well as
+    buttons for playing, pausing, stopping and moving ahead/back 30 seconds on this podcast.</string>
+    <string name="available_text">The purpose of this activity is to show the library of podcasts already stored on this
+    podcast listener, as well as to the podcasts that listeners have subscribed. </string>
 </resources>
