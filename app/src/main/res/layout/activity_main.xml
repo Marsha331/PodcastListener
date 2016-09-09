@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.swallowsnest.podcastlistener.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/nowPlaying"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#33BBFF"
+        android:textColor="#ffffff"
+        android:text="Now Playing"
+        android:textSize="35sp"
+        android:padding="8dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/available_podcasts"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#3355FF"
+        android:textColor="#ffffff"
+        android:text="Available Podcasts"
+        android:textSize="35sp"
+        android:padding="8dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/buyMore"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#7733FF"
+        android:textColor="#ffffff"
+        android:text="Buy More Podcasts"
+        android:textSize="35sp"
+        android:padding="8dp"
+        android:layout_weight="1"
+        />
+
+    <TextView
+        android:id="@+id/search_podcasts"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#DD33FF"
+        android:textColor="#ffffff"
+        android:text="Search Podcasts"
+        android:textSize="35sp"
+        android:padding="8dp"
+        android:layout_weight="1"
+        />
+</LinearLayout>

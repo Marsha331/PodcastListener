@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.swallowsnest.podcastlistener.NowPlaying"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/buymore"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_gravity="bottom">
+
+        <Button
+            android:id="@+id/available_podcasts"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="Available"
+            android:layout_weight="1"
+            android:background="#3355ff"
+            android:textColor="#ffffff"
+            android:layout_margin="4dp"/>
+
+        <Button
+            android:id="@+id/nowPlaying"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="Now Playing"
+            android:layout_weight="1"
+            android:background="#33bbff"
+            android:textColor="#ffffff"
+            android:layout_margin="4dp"
+            />
+
+        <Button
+            android:id="@+id/search_podcasts"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:layout_weight="1"
+            android:background="#dd33ff"
+            android:textColor="#ffffff"
+            android:layout_margin="4dp"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
